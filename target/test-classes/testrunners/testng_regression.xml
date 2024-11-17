@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="BlazeDemo Application Test Regression Suite" thread-count="2"
+	parallel="tests" verbose="4">
+	
+	<test name="Home Page Test">
+	 	<parameter name="browser" value="edge"/>
+		<classes>
+			<class name="com.qa.blazedemo.test.HomePageTest" />
+		</classes>
+	</test>
+	
+	 <test name="Login Page Test">
+	 	<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="com.qa.blazedemo.test.LoginPageTest" />
+		</classes>
+	 </test>
+    
+	
+	<test name="Register Page Test">
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="com.qa.blazedemo.test.RegisterPageTest"/>
+		</classes>
+	</test>
+	
+	<test name="SelectFlight Page Test">
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="com.qa.blazedemo.test.SelectFlightTest"/>
+		</classes>
+	</test>
+	
+	<test name="FlightBookSuccessPage Page Test">
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="com.qa.blazedemo.test.FlightBookSuccessPageTest"/>
+		</classes>
+	</test>
+	
+	
+
+</suite>

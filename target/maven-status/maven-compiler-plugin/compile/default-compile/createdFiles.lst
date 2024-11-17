@@ -1,0 +1,12 @@
+com\qa\blazedemo\pages\LoginPage.class
+com\qa\blazedemo\pages\RegisterPage.class
+com\qa\blazedemo\factory\DriverFactory.class
+com\qa\blazedemo\pages\FlightBookSuccessPage.class
+com\qa\blazedemo\constants\AppConstants.class
+com\qa\blazedemo\exceptions\BrowserException.class
+com\qa\blazedemo\utils\ElementUtil.class
+com\qa\blazedemo\pages\UserDetailsPage.class
+com\qa\blazedemo\pages\HomePage.class
+com\qa\blazedemo\pages\SelectFlightPage.class
+com\qa\blazedemo\pages\RegisterUserSuccessPage.class
+com\qa\blazedmo\errors\AppError.class

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="10.951" tests="14" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.9.8\boot\plexus-classworlds-2.8.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="GMT+01:00"/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.9.8/conf"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -Denv=qa"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.9.8"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\vijay"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.4+8-LTS-274"/>
+    <property name="user.name" value="vijay"/>
+    <property name="stdout.encoding" value="cp437"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\vijay\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.4"/>
+    <property name="user.dir" value="C:\Users\vijay\NewEclipse\BlazeDemo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\vijay\NewEclipse\BlazeDemo"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="env" value="qa"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.8\bin;C:\Users\vijay\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.4+8-LTS-274"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.9.8\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.9.8\lib\jansi-native"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="isFlightPageHeaderDisplayed" classname="com.qa.blazedemo.test.SelectFlightTest" time="0.073"/>
+  <testcase name="selectFlightTest" classname="com.qa.blazedemo.test.SelectFlightTest" time="0.561"/>
+  <testcase name="findFlightsButtonExistsTest" classname="com.qa.blazedemo.test.HomePageTest" time="0.1"/>
+  <testcase name="homePageHeaderTest" classname="com.qa.blazedemo.test.HomePageTest" time="0.071"/>
+  <testcase name="homePageTitleTest" classname="com.qa.blazedemo.test.HomePageTest" time="0.024"/>
+  <testcase name="forgotPasswordLinkTest" classname="com.qa.blazedemo.test.LoginPageTest" time="0.063"/>
+  <testcase name="loginButtonExistsTest" classname="com.qa.blazedemo.test.LoginPageTest" time="0.032"/>
+  <testcase name="registerLinkExistsTest" classname="com.qa.blazedemo.test.LoginPageTest" time="0.07"/>
+  <testcase name="selectDepartureCityTest" classname="com.qa.blazedemo.test.HomePageTest" time="0.039"/>
+  <testcase name="selectDestinationCityTest" classname="com.qa.blazedemo.test.HomePageTest" time="0.202"/>
+  <testcase name="clickOnRegisterLinkTest" classname="com.qa.blazedemo.test.LoginPageTest" time="0.266"/>
+  <testcase name="clickOnFindFlightsTest" classname="com.qa.blazedemo.test.HomePageTest" time="0.705"/>
+  <testcase name="userRegistrationTest" classname="com.qa.blazedemo.test.RegisterPageTest" time="1.689"/>
+  <testcase name="flightPurchaseTest" classname="com.qa.blazedemo.test.FlightBookSuccessPageTest" time="1.983"/>
+</testsuite>

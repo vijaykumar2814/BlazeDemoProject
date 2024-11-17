@@ -1,0 +1,6 @@
+com\qa\blazedemo\test\HomePageTest.class
+com\qa\blazedemo\test\RegisterPageTest.class
+com\qa\blazedemo\test\SelectFlightTest.class
+com\qa\blazedemo\base\BaseTest.class
+com\qa\blazedemo\test\LoginPageTest.class
+com\qa\blazedemo\test\FlightBookSuccessPageTest.class

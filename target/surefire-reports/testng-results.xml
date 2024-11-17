@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-17T23:27:05 GMT+01:00" name="BlazeDemo Application Test Regression Suite" finished-at="2024-11-17T23:27:15 GMT+01:00" duration-ms="10418">
+    <groups>
+    </groups>
+    <test started-at="2024-11-17T23:27:05 GMT+01:00" name="SelectFlight Page Test" finished-at="2024-11-17T23:27:10 GMT+01:00" duration-ms="4885">
+      <class name="com.qa.blazedemo.test.SelectFlightTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.blazedemo.test.SelectFlightTest@4c9f8c13]" started-at="2024-11-17T23:27:05 GMT+01:00" name="setUp" finished-at="2024-11-17T23:27:08 GMT+01:00" duration-ms="3408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="registerPageSetup()[pri:0, instance:com.qa.blazedemo.test.SelectFlightTest@4c9f8c13]" started-at="2024-11-17T23:27:08 GMT+01:00" name="registerPageSetup" finished-at="2024-11-17T23:27:09 GMT+01:00" duration-ms="812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerPageSetup -->
+        <test-method signature="isFlightPageHeaderDisplayed()[pri:0, instance:com.qa.blazedemo.test.SelectFlightTest@4c9f8c13]" started-at="2024-11-17T23:27:09 GMT+01:00" name="isFlightPageHeaderDisplayed" finished-at="2024-11-17T23:27:09 GMT+01:00" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFlightPageHeaderDisplayed -->
+        <test-method signature="selectFlightTest()[pri:0, instance:com.qa.blazedemo.test.SelectFlightTest@4c9f8c13]" started-at="2024-11-17T23:27:09 GMT+01:00" name="selectFlightTest" finished-at="2024-11-17T23:27:10 GMT+01:00" duration-ms="565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFlightTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.blazedemo.test.SelectFlightTest@4c9f8c13]" started-at="2024-11-17T23:27:10 GMT+01:00" name="tearDown" finished-at="2024-11-17T23:27:10 GMT+01:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.blazedemo.test.SelectFlightTest -->
+    </test> <!-- SelectFlight Page Test -->
+    <test started-at="2024-11-17T23:27:05 GMT+01:00" name="Login Page Test" finished-at="2024-11-17T23:27:11 GMT+01:00" duration-ms="6106">
+      <class name="com.qa.blazedemo.test.LoginPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.blazedemo.test.LoginPageTest@2ea227af]" started-at="2024-11-17T23:27:05 GMT+01:00" name="setUp" finished-at="2024-11-17T23:27:08 GMT+01:00" duration-ms="2782" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginPageSetup()[pri:0, instance:com.qa.blazedemo.test.LoginPageTest@2ea227af]" started-at="2024-11-17T23:27:08 GMT+01:00" name="loginPageSetup" finished-at="2024-11-17T23:27:10 GMT+01:00" duration-ms="2530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageSetup -->
+        <test-method signature="forgotPasswordLinkTest()[pri:0, instance:com.qa.blazedemo.test.LoginPageTest@2ea227af]" started-at="2024-11-17T23:27:10 GMT+01:00" name="forgotPasswordLinkTest" finished-at="2024-11-17T23:27:10 GMT+01:00" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordLinkTest -->
+        <test-method signature="loginButtonExistsTest()[pri:0, instance:com.qa.blazedemo.test.LoginPageTest@2ea227af]" started-at="2024-11-17T23:27:10 GMT+01:00" name="loginButtonExistsTest" finished-at="2024-11-17T23:27:10 GMT+01:00" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginButtonExistsTest -->
+        <test-method signature="registerLinkExistsTest()[pri:0, instance:com.qa.blazedemo.test.LoginPageTest@2ea227af]" started-at="2024-11-17T23:27:10 GMT+01:00" name="registerLinkExistsTest" finished-at="2024-11-17T23:27:10 GMT+01:00" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerLinkExistsTest -->
+        <test-method signature="clickOnRegisterLinkTest()[pri:2147483647, instance:com.qa.blazedemo.test.LoginPageTest@2ea227af]" started-at="2024-11-17T23:27:10 GMT+01:00" name="clickOnRegisterLinkTest" finished-at="2024-11-17T23:27:11 GMT+01:00" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnRegisterLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.blazedemo.test.LoginPageTest@2ea227af]" started-at="2024-11-17T23:27:11 GMT+01:00" name="tearDown" finished-at="2024-11-17T23:27:11 GMT+01:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.blazedemo.test.LoginPageTest -->
+    </test> <!-- Login Page Test -->
+    <test started-at="2024-11-17T23:27:05 GMT+01:00" name="Home Page Test" finished-at="2024-11-17T23:27:11 GMT+01:00" duration-ms="6555">
+      <class name="com.qa.blazedemo.test.HomePageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.blazedemo.test.HomePageTest@309e345f]" started-at="2024-11-17T23:27:05 GMT+01:00" name="setUp" finished-at="2024-11-17T23:27:10 GMT+01:00" duration-ms="5003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="findFlightsButtonExistsTest()[pri:0, instance:com.qa.blazedemo.test.HomePageTest@309e345f]" started-at="2024-11-17T23:27:10 GMT+01:00" name="findFlightsButtonExistsTest" finished-at="2024-11-17T23:27:10 GMT+01:00" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findFlightsButtonExistsTest -->
+        <test-method signature="homePageHeaderTest()[pri:0, instance:com.qa.blazedemo.test.HomePageTest@309e345f]" started-at="2024-11-17T23:27:10 GMT+01:00" name="homePageHeaderTest" finished-at="2024-11-17T23:27:10 GMT+01:00" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageHeaderTest -->
+        <test-method signature="homePageTitleTest()[pri:0, instance:com.qa.blazedemo.test.HomePageTest@309e345f]" started-at="2024-11-17T23:27:10 GMT+01:00" name="homePageTitleTest" finished-at="2024-11-17T23:27:10 GMT+01:00" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method signature="selectDepartureCityTest()[pri:0, instance:com.qa.blazedemo.test.HomePageTest@309e345f]" started-at="2024-11-17T23:27:10 GMT+01:00" name="selectDepartureCityTest" finished-at="2024-11-17T23:27:10 GMT+01:00" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDepartureCityTest -->
+        <test-method signature="selectDestinationCityTest()[pri:0, instance:com.qa.blazedemo.test.HomePageTest@309e345f]" started-at="2024-11-17T23:27:10 GMT+01:00" name="selectDestinationCityTest" finished-at="2024-11-17T23:27:11 GMT+01:00" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDestinationCityTest -->
+        <test-method signature="clickOnFindFlightsTest()[pri:2147483647, instance:com.qa.blazedemo.test.HomePageTest@309e345f]" started-at="2024-11-17T23:27:11 GMT+01:00" name="clickOnFindFlightsTest" finished-at="2024-11-17T23:27:11 GMT+01:00" duration-ms="800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnFindFlightsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.blazedemo.test.HomePageTest@309e345f]" started-at="2024-11-17T23:27:11 GMT+01:00" name="tearDown" finished-at="2024-11-17T23:27:11 GMT+01:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.blazedemo.test.HomePageTest -->
+    </test> <!-- Home Page Test -->
+    <test started-at="2024-11-17T23:27:05 GMT+01:00" name="Register Page Test" finished-at="2024-11-17T23:27:12 GMT+01:00" duration-ms="7532">
+      <class name="com.qa.blazedemo.test.RegisterPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.blazedemo.test.RegisterPageTest@1d119efb]" started-at="2024-11-17T23:27:05 GMT+01:00" name="setUp" finished-at="2024-11-17T23:27:08 GMT+01:00" duration-ms="3402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="registerPageSetup()[pri:0, instance:com.qa.blazedemo.test.RegisterPageTest@1d119efb]" started-at="2024-11-17T23:27:08 GMT+01:00" name="registerPageSetup" finished-at="2024-11-17T23:27:11 GMT+01:00" duration-ms="2429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerPageSetup -->
+        <test-method signature="userRegistrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.blazedemo.test.RegisterPageTest@1d119efb]" started-at="2024-11-17T23:27:11 GMT+01:00" name="userRegistrationTest" data-provider="enterUserDataForRegistration" finished-at="2024-11-17T23:27:12 GMT+01:00" duration-ms="1685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testuser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amazon]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@amazon.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.blazedemo.test.RegisterPageTest@1d119efb]" started-at="2024-11-17T23:27:12 GMT+01:00" name="tearDown" finished-at="2024-11-17T23:27:12 GMT+01:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.blazedemo.test.RegisterPageTest -->
+    </test> <!-- Register Page Test -->
+    <test started-at="2024-11-17T23:27:10 GMT+01:00" name="FlightBookSuccessPage Page Test" finished-at="2024-11-17T23:27:15 GMT+01:00" duration-ms="5438">
+      <class name="com.qa.blazedemo.test.FlightBookSuccessPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.blazedemo.test.FlightBookSuccessPageTest@4a22f9e2]" started-at="2024-11-17T23:27:10 GMT+01:00" name="setUp" finished-at="2024-11-17T23:27:12 GMT+01:00" duration-ms="2516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="flightBookSuccessPageSetUp()[pri:0, instance:com.qa.blazedemo.test.FlightBookSuccessPageTest@4a22f9e2]" started-at="2024-11-17T23:27:12 GMT+01:00" name="flightBookSuccessPageSetUp" finished-at="2024-11-17T23:27:13 GMT+01:00" duration-ms="937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightBookSuccessPageSetUp -->
+        <test-method signature="flightPurchaseTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2147483647, instance:com.qa.blazedemo.test.FlightBookSuccessPageTest@4a22f9e2]" started-at="2024-11-17T23:27:13 GMT+01:00" name="flightPurchaseTest" data-provider="userDetailsToBookFlight_11" finished-at="2024-11-17T23:27:15 GMT+01:00" duration-ms="1983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vijay_Newww]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ProvstBentzonsVej_1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Copenhagen]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Denmark]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2300]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1234567812345678]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2012]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Vijayakumar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightPurchaseTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.blazedemo.test.FlightBookSuccessPageTest@4a22f9e2]" started-at="2024-11-17T23:27:15 GMT+01:00" name="tearDown" finished-at="2024-11-17T23:27:15 GMT+01:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.blazedemo.test.FlightBookSuccessPageTest -->
+    </test> <!-- FlightBookSuccessPage Page Test -->
+  </suite> <!-- BlazeDemo Application Test Regression Suite -->
+</testng-results>
